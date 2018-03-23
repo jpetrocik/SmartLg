@@ -1,0 +1,15 @@
+{
+  "name": "john",
+  "version": "1.0.0",
+  "description": "LG 43PC3D Serial Control",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "dependencies": {
+    "mqtt": "~1.6.3",
+    "serialport": "~6.1.1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}
