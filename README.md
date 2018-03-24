@@ -11,3 +11,16 @@ Edit the config.json file to point the mqtt server, topic to listen on for comma
 
 ## Running ##
 nodejs lib/server.js
+
+## Example Message ##
+While the documentation for LG serial interfaace is will documented in the manuals I'll include a few notes.
+
+* Everything is transfered in ASIIC.  So for example the change number is tarnsfered in HEX representation but using ASIIC.  So a message to swtich to channel 13 would look like: ma 01 0D 00 0D 00 01 22.  Notice the 0D is the hex representation but the message is a 0 and D asiic character
+
+* The topic message does not need to contain the "\r" at the end of the message, the server will append it.
+
+Random Examples:
+Switch Input To Hdmi: kb 01 08
+Switch input to TV: kb 01 00
+Swithc to channel ATSC 2.1: ma 01 02 00 02 00 01 22
+
