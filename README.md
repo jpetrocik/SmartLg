@@ -20,7 +20,10 @@ While the documentation for LG serial interfaace is will documented in the manua
 * The topic message does not need to contain the "\r" at the end of the message, the server will append it.
 
 Random Examples:
+
 Switch Input To Hdmi: kb 01 08
+
 Switch input to TV: kb 01 00
+
 Swithc to channel ATSC 2.1: ma 01 02 00 02 00 01 22
 
