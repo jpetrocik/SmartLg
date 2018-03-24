@@ -1,0 +1,5 @@
+{
+	"mqttServerUrl":"tcp://mqtt.local:1883",
+	"commandTopic":"home/livingroom/tv/command",
+	"serialPort":"/dev/rfcomm0"
+}
