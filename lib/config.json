@@ -1,5 +1,6 @@
 {
 	"mqttServerUrl":"tcp://mqtt.local:1883",
-	"commandTopic":"home/livingroom/tv/command",
+	"commandTopic":"house/livingroom/tv/command",
+	"statusTopic":"house/livingroom/tv/status",
 	"serialPort":"/dev/rfcomm0"
 }
